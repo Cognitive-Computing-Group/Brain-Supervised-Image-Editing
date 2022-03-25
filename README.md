@@ -13,4 +13,8 @@ TODO
 
 ## Pipeline
 
-TODO
+### EEG Signal Classification
+The notebook "EEG_Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
+
+### EEG Signal Classification
+The notebook "EEG_Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
