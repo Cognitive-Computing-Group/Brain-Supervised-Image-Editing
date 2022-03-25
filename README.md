@@ -3,4 +3,14 @@ Code and Data Release for "Brain-Supervised Image Editing", published in proceed
 
 # How to use this repository
 
+## Prelimaries
+### GAN Model
 The CelebAHQ trained GAN model used for generation and semantic editing of facial images can be found [here](https://github.com/tkarras/progressive_growing_of_gans) via "Pre-trained networks" under [karras2018iclr-celebahq-1024x1024](https://drive.google.com/drive/folders/15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU).
+
+### Requirements
+
+TODO
+
+## Pipeline
+
+TODO
