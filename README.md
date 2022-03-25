@@ -16,5 +16,8 @@ TODO
 ### EEG Signal Classification
 The notebook "EEG_Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
 
-### EEG Signal Classification
-The notebook "EEG_Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
+### Semantic Editing
+The notebook "Semantic_Editing" contains full documentation on how to take classified EEG signals paired with the latents used to generate the stimuli and learn to separate semantic features within the GAN model. This feature representation is then used to make semantic changes to the images via modification of their associated latent vectors.
+
+### Image Generationg
+The notebook "Image_Generator" contains full documentation on how to take the modified latent vectors and produce generated images via the GAN model. NOTE: Due to limitations of the GAN model, this notebook requires a different version of Python and Tensorflow in order to produce correct outputs.
