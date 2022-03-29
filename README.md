@@ -18,7 +18,7 @@ scipy==1.6.2
 tqdm==4.47.0  
 
 #### Image Generation
-TODO
+tensorflow-gpu==1.6.0
 
 ## Pipeline
 
@@ -29,4 +29,4 @@ The notebook "EEG_Classifier" contains full documentation on how to take the mod
 The notebook "Semantic_Editing" contains full documentation on how to take classified EEG signals paired with the latents used to generate the stimuli and learn to separate semantic features within the GAN model. This feature representation is then used to make semantic changes to the images via modification of their associated latent vectors.
 
 ### Image Generation
-The notebook "Image_Generator" contains full documentation on how to take the modified latent vectors and produce generated images via the GAN model. NOTE: Due to limitations of the GAN model, this notebook requires a different version of Python and Tensorflow in order to produce correct outputs (see requirements, above).
+The notebook "Image_Generator" contains full documentation on how to take the modified latent vectors and produce generated images via the GAN model. NOTE: This notebook requires a different version of Python and Tensorflow in order to produce correct outputs (see requirements, above).
