@@ -1,5 +1,5 @@
 # Brain-Supervised-Image-Editing
-Code and Data Release for "Brain-Supervised Image Editing", published in proceedings of CVPR 2022 -  [LINK PENDING]
+Code and data release for "Brain-Supervised Image Editing", published in proceedings of CVPR 2022 -  [LINK PENDING]
 
 # How to use this repository
 
