@@ -18,7 +18,7 @@ scipy==1.6.2
 tqdm==4.47.0  
 
 #### Image Generation
-tensorflow-gpu==1.6.0
+tensorflow-gpu>=1.6.0
 
 ## Pipeline
 
