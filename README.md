@@ -10,7 +10,12 @@ The CelebAHQ trained GAN model used for generation and semantic editing of facia
 ### Requirements
 
 #### EEG Signal Classification and Semantic Editing
-TODO 
+matplotlib==3.2.2
+numpy==1.18.5
+pandas==1.0.5
+scikit_learn==1.0.2
+scipy==1.6.2
+tqdm==4.47.0
 
 #### Image Generation
 TODO
