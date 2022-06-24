@@ -1,7 +1,8 @@
 # Brain-Supervised-Image-Editing
-Code and data release for "Brain-Supervised Image Editing", published in proceedings of CVPR 2022 -  [LINK PENDING]
-
+Code and data release for "Brain-Supervised Image Editing", published in proceedings of CVPR 2022 -  [paper](https://openaccess.thecvf.com/content/CVPR2022/html/Davis_Brain-Supervised_Image_Editing_CVPR_2022_paper.html)
 # How to use this repository
+
+NOTE: This repository will be updated by August 1st 2022 with additional code and data.
 
 ## Prelimaries
 ### GAN Model
@@ -21,12 +22,13 @@ tqdm==4.47.0
 tensorflow-gpu>=1.6.0
 
 ## Pipeline
+While the authors believe the primary value of this repository stems from the EEG data and associated latents themselves, we have also provided some basic starter code to understand how a basic pipeline may function.
 
 ### EEG Signal Classification
-The notebook "EEG_Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
+The notebook "01 - EEG Classifier" contains full documentation on how to take the modified EEG data (100ms averages to preserve privacy) paired with the labeled stimuli and train an LDA classifier to label stimuli using brain signals.
 
 ### Semantic Editing
-The notebook "Semantic_Editing" contains full documentation on how to take classified EEG signals paired with the latents used to generate the stimuli and learn to separate semantic features within the GAN model. This feature representation is then used to make semantic changes to the images via modification of their associated latent vectors.
+The notebook "02 - Semantic Editing" contains full documentation on how to take the output labels predicted from the EEG signals paired with the latents used to generate the stimuli and learn to separate semantic features within the GAN model. This feature representation is then used to make semantic changes to the images via modification of their associated latent vectors.
 
 ### Image Generation
-The notebook "Image_Generator" contains full documentation on how to take the modified latent vectors and produce generated images via the GAN model. NOTE: This notebook requires a different version of Python and Tensorflow in order to produce correct outputs (see requirements, above).
+The notebook "03 - Image Generation" contains full documentation on how to take the modified latent vectors and produce generated images via the GAN model. 
